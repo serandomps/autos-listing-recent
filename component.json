@@ -1,6 +1,6 @@
 {
-    "name": "vehicles-listing-recent",
-    "description": "vehicles-listing-recent component",
+    "name": "vehicles-find-recent",
+    "description": "vehicles-find-recent component",
     "local": [],
     "scripts": ["index.js"],
     "styles": ["styles.css"],
@@ -10,6 +10,6 @@
         "serandomps/serand": "master",
         "serandomps/utils": "master",
         "serandomps/vehicles-service": "master",
-        "serandomps/vehicles-listing": "master"
+        "serandomps/vehicles-find": "master"
     }
 }
