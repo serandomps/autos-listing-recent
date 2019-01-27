@@ -1,6 +1,3 @@
-var dust = require('dust')();
-var serand = require('serand');
-var utils = require('utils');
 var Vehicle = require('vehicles-service');
 var list = require('vehicles-find');
 
@@ -13,9 +10,10 @@ module.exports = function (ctx, container, options, done) {
         if (err) {
             return done(err);
         }
-        list(ctx, sandbox, {
+        list(ctx, container, {
             vehicles: vehicles,
-            title: 'Recently Added'
+            title: 'Recently Added',
+            size: 12
         }, done);
     });
 };
